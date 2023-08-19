@@ -1,0 +1,22 @@
+@import url('assets/font/stylesheet.css');
+* {
+  font-family:  "Gilroy","Nunito" ,"Helvetica" ,"sans-serif";
+}
+
+
+.responsive-img{
+  overflow: hidden;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.responsive-img img{
+  position: relative;
+  width:auto;
+  height:auto;
+  max-width: 100%;
+  max-height: 100%;
+}
